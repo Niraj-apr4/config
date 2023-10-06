@@ -1,0 +1,18 @@
+2023/10/06-22:06:35.839 f6a Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/10/06-22:06:35.843 f6a Recovering log #277
+2023/10/06-22:06:35.847 f6a Reusing old log /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/000277.log 
+2023/10/06-22:06:37.536 f60 Level-0 table #281: started
+2023/10/06-22:06:37.541 f60 Level-0 table #281: 100266 bytes OK
+2023/10/06-22:06:37.544 f60 Delete type=0 #277
+2023/10/06-22:06:37.545 f60 Compacting 4@0 + 1@1 files
+2023/10/06-22:06:37.550 f60 Generated table #282@0: 117 keys, 14285 bytes
+2023/10/06-22:06:37.550 f60 Compacted 4@0 + 1@1 files => 14285 bytes
+2023/10/06-22:06:37.553 f60 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/06-22:06:37.553 f60 Delete type=2 #278
+2023/10/06-22:06:37.553 f60 Delete type=2 #272
+2023/10/06-22:06:37.553 f60 Delete type=2 #275
+2023/10/06-22:06:37.553 f60 Delete type=2 #269
+2023/10/06-22:06:37.553 f60 Delete type=2 #281
+2023/10/06-22:51:31.671 f5f Level-0 table #284: started
+2023/10/06-22:51:31.681 f5f Level-0 table #284: 104136 bytes OK
+2023/10/06-22:51:31.683 f5f Delete type=0 #280

@@ -1,0 +1,7 @@
+2023/10/06-01:15:41.432 11ec Reusing MANIFEST /home/niraj/.config/google-chrome/Profile 1/WebStorage/13/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/10/06-01:15:41.433 11ec Recovering log #3
+2023/10/06-01:15:41.433 11ec Reusing old log /home/niraj/.config/google-chrome/Profile 1/WebStorage/13/IndexedDB/indexeddb.leveldb/000003.log 
+2023/10/06-01:16:09.459 11ec Level-0 table #5: started
+2023/10/06-01:16:09.461 11ec Level-0 table #5: 23025 bytes OK
+2023/10/06-01:16:09.463 11ec Delete type=0 #3
+2023/10/06-01:16:09.464 11ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)

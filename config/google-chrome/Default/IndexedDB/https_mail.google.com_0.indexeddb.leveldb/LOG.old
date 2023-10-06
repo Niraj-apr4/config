@@ -1,0 +1,21 @@
+2023/10/06-20:07:47.694 253 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/06-20:07:47.695 253 Recovering log #50
+2023/10/06-20:07:47.703 253 Reusing old log /home/niraj/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000050.log 
+2023/10/06-20:07:53.025 253 Compacting 1@1 + 1@2 files
+2023/10/06-20:07:53.059 253 Generated table #53@1: 220 keys, 540160 bytes
+2023/10/06-20:07:53.059 253 Compacted 1@1 + 1@2 files => 540160 bytes
+2023/10/06-20:07:53.065 253 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/06-20:07:53.065 253 Delete type=2 #51
+2023/10/06-20:07:53.065 253 Delete type=2 #48
+2023/10/06-20:25:59.787 253 Level-0 table #55: started
+2023/10/06-20:25:59.810 253 Level-0 table #55: 2040373 bytes OK
+2023/10/06-20:25:59.813 253 Delete type=0 #50
+2023/10/06-20:25:59.813 253 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/10/06-20:25:59.813 253 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 35108 : 0
+2023/10/06-20:25:59.813 253 Compacting 1@1 + 1@2 files
+2023/10/06-20:25:59.822 253 Generated table #56@1: 77 keys, 105032 bytes
+2023/10/06-20:25:59.822 253 Compacted 1@1 + 1@2 files => 105032 bytes
+2023/10/06-20:25:59.823 253 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/06-20:25:59.824 253 Delete type=2 #55
+2023/10/06-20:25:59.824 253 Delete type=2 #53
+2023/10/06-20:25:59.824 253 Manual compaction at level-1 from '\x00\x01\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 35108 : 0 .. (end); will stop at (end)

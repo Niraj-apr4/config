@@ -1,0 +1,9 @@
+2023/10/05-16:46:04.955 2f3 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/05-16:46:04.955 2f3 Recovering log #79
+2023/10/05-16:46:04.955 2f3 Reusing old log /home/niraj/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000079.log 
+2023/10/05-16:46:05.135 2f6 Compacting 1@1 + 1@2 files
+2023/10/05-16:46:05.146 2f6 Generated table #82@1: 356 keys, 60345 bytes
+2023/10/05-16:46:05.146 2f6 Compacted 1@1 + 1@2 files => 60345 bytes
+2023/10/05-16:46:05.149 2f6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/05-16:46:05.150 2f6 Delete type=2 #80
+2023/10/05-16:46:05.150 2f6 Delete type=2 #77

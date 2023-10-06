@@ -1,0 +1,6 @@
+2023/10/01-20:28:10.438 25f Creating DB /home/niraj/.config/google-chrome/Default/IndexedDB/https_user.conscent.in_0.indexeddb.leveldb since it was missing.
+2023/10/01-20:28:10.443 25f Reusing MANIFEST /home/niraj/.config/google-chrome/Default/IndexedDB/https_user.conscent.in_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/01-20:29:15.262 260 Level-0 table #5: started
+2023/10/01-20:29:15.263 260 Level-0 table #5: 1727 bytes OK
+2023/10/01-20:29:15.265 260 Delete type=0 #3
+2023/10/01-20:29:15.265 260 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

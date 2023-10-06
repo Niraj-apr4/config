@@ -1,0 +1,10 @@
+2023/10/06-22:01:51.729 a0a Reusing MANIFEST /home/niraj/.config/google-chrome/Profile 1/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/06-22:01:51.730 a0a Recovering log #14
+2023/10/06-22:01:51.750 a0a Reusing old log /home/niraj/.config/google-chrome/Profile 1/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/000014.log 
+2023/10/06-22:03:19.136 a0d Level-0 table #19: started
+2023/10/06-22:03:19.159 a0d Level-0 table #19: 1028838 bytes OK
+2023/10/06-22:03:19.163 a0d Delete type=0 #14
+2023/10/06-22:03:22.776 a0d Compacting 1@1 + 1@2 files
+2023/10/06-22:03:22.788 a0d Generated table #20@1: 234 keys, 19278 bytes
+2023/10/06-22:03:22.788 a0d Compacted 1@1 + 1@2 files => 19278 bytes
+2023/10/06-22:03:22.789 a0d compacted to: files[ 0 0 1 0 0 0 0 ]

@@ -1,0 +1,12 @@
+2023/10/06-21:48:59.998 3 Reusing MANIFEST /home/niraj/.config/google-chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2023/10/06-21:49:00.000 3 Recovering log #83
+2023/10/06-21:49:00.004 3 Reusing old log /home/niraj/.config/google-chrome/Profile 1/Local Storage/leveldb/000083.log 
+2023/10/06-21:49:08.225 5 Level-0 table #88: started
+2023/10/06-21:49:08.235 5 Level-0 table #88: 22543 bytes OK
+2023/10/06-21:49:08.239 5 Delete type=0 #83
+2023/10/06-22:02:23.100 5 Level-0 table #90: started
+2023/10/06-22:02:23.103 5 Level-0 table #90: 31629 bytes OK
+2023/10/06-22:02:23.107 5 Delete type=0 #87
+2023/10/06-22:03:25.107 5 Level-0 table #92: started
+2023/10/06-22:03:25.111 5 Level-0 table #92: 23669 bytes OK
+2023/10/06-22:03:25.114 5 Delete type=0 #89

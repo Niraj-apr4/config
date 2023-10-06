@@ -1,0 +1,48 @@
+{
+   "checksum": "d6d9173098c5751d51ddccfba06116d2",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13339841436070987",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13340704293551212",
+            "date_last_used": "0",
+            "guid": "81a33018-9494-4c2b-ac3f-29968f57e0cc",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "mkfs.fat: command not found – The Geek Diary",
+            "type": "url",
+            "url": "https://www.thegeekdiary.com/mkfs-fat-command-not-found/"
+         } ],
+         "date_added": "13339841436071002",
+         "date_last_used": "0",
+         "date_modified": "13340704293551212",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13339841436071016",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cu0BCswBCIiBAhLFARI8CAISOAoGCgJibRABEDMaEgkA96N01AYGACEA96N01AYGADIYChYIAhG8gfGD1AYGABgAIQAAAAAAAAAAIACSAX0KNAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJS5Pxg9QGBgARS5Pxg9QGBgAp5Ibzg9QGBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgkAjF5/1AYGABEAjF5/1AYGACnjkPGD1AYGADCAmPr6x9qBA7oBAggBEgAqGEs5bUJ6SU5kTFNJSzI4VUZJdFp1TkE9PUgDEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFad3ZDenRTcjJIS1hZZ29mN2ZCbWc2WE1rY0pBdnRoZ1ArY29ud0ZhTHJod0JGankrSzhUWEZUaTR2RDZIaUk1ZkxyQ1E2VEIyWmtnQm1iLzI4ZHpZYnNmcHI3NFE9PRgAIAAoADDQmKS02b2BAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeVNDazhLZk1TbzBJai95L2ZjZitLVU9tTVZnNW1XRmF1TFp4blgvbEZyUnFpUFFSQi9TVFNUR3VGbWJUb0FoMHdpc1JKThgAIAAoADDQmKS02b2BAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeWdma0FvdCtsbm1JZGlZNG4zY010VE80ZUMrSWtBWVdWWjZzMnp5RWZOb3FlamJacE5hVW9oUElKZlNYNld4TGtoR0RzNDRldE9BU1FJQlZmYzlPN3pvemtXMUE9PRgAIAAoADDQmKS02b2BAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEusBCAUS5gEKHEJ3Wnl1RnYwek4vV3RBSGNWdGxzdHQxUnVCOD0SZlo6QURxdEFad3UyeW8wakUyUDV3UGZjU0hoWFk4YmFTOCt6VTREQVpob1RlQmk1UE5USEZISVFiRHRyQVdFYWlSc05FRXViRWtWWUxrN2pyNktLY2RtdTgxSW5rRWxRWFZMNEE9PRgAIAIoAjCr0Ovg59aBAziwten5rjFAvLXp+a4xShxSN1RqRWtON3BQTHBpdEZXT1VjZXJmUWJrS0U9Wh4iHHJvZ1RnNWFaS3lhbWljeXpqcVo3ZFVUUzVFND1lnwz1IDABOAA=",
+   "version": 1
+}
