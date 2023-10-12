@@ -7,8 +7,16 @@ super + Return
 	st -f 'Fira Code-12'
 
 # program launcher
-super + @space
-	dmenu_run -c -nb #RRGGBB -fn 'Fira Code-12'
+#super + @space
+#	dmenu_run -c -fn 'Fira Code-12'
+
+# google chrome 
+super + w
+      google-chrome-stable
+
+# editor
+super + e
+      emacs
 
 # make sxhkd reload its configuration files:
 super + Escape

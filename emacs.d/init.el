@@ -2,13 +2,14 @@
 (menu-bar-mode -1) ;; hide menu bar
 (scroll-bar-mode -1) ;; hide scroll bar
 (tool-bar-mode -1) ;; hide tool bar
+(global-visual-line-mode) ;; globally activate visual line mode
 
 (setq inhibit-startup-screen t) ;; inhibit startup screen
 
-;; (set-frame-font "Fira Code 12" nil t) ;; set up font 
-(set-face-attribute 'default nil :font "Fira Code 12")
-(set-face-attribute 'fixed-pitch nil :font "Fira Code 12")
-(set-face-attribute 'variable-pitch nil :font "CMU Concrete")
+;; setup fonts 
+(set-face-attribute 'default nil :font "Fira Code 12") ;default font fira code
+(set-face-attribute 'fixed-pitch nil :font "Fira Code 12") ;fixed pitch fira code
+(set-face-attribute 'variable-pitch nil :font "CMU Sans Serif 14") ;variable pitch computer modern
 
 ;; locate different file custom-vars.el for custom set variables 
 (setq custom-file "~/.emacs.d/custom-vars.el")
@@ -131,174 +132,19 @@
           (lambda () (* 2.50
                    (funcall (preview-scale-from-face)))))))
 
-;;copied
-; (use-package ef-themes 
-;   :ensure t
-;   :config
-;   (load-theme 'ef-maris-light t))
-;; (use-package doom-themes
-;;   :ensure t
-;;   :config
-;;   (load-theme 'doom-nord-aurora t))
-
 (use-package denote
   :ensure t
   :config
   (setq denote-directory (expand-file-name "~/notes/")))
 
-(use-package org
-  :config
-  (setq org-log-done 'time)
-  (setq org-todo-keywords
-	'((sequence "TODO" "IN-PROGRESS" "WAITING" "|" "DONE" "CANCELLED")))
-  (setq org-return-follows-link t)
-  (setq org-highlight-latex-and-related '(latex script entities))
-    ;; active Babel languages
-    (org-babel-do-load-languages
-    'org-babel-load-languages
-    '((shell . t))))
+;; load org-mode configuration
+(load "~/.emacs.d/niraj/org-mode.el")
 
+;; load packages auto activating snippets  and latex auto activating snippets
+(load "~/.emacs.d/niraj/auto-snippets-system.el")
 
-
-(use-package aas
-  :ensure t
-  :hook (LaTeX-mode . aas-activate-for-major-mode)
-  :hook (org-mode . aas-activate-for-major-mode)
-  :config
-  (aas-set-snippets 'text-mode
-    ;; expand unconditionally
-    ";o-" "ō"
-    ";i-" "ī"
-    ";a-" "ā"
-    ";u-" "ū"
-    ";e-" "ē")
-  (aas-set-snippets 'latex-mode
-    ;; set condition!
-    :cond #'texmathp ; expand only while in math
-    "supp" "\\supp"
-    "On" "O(n)"
-    "O1" "O(1)"
-    "Olog" "O(\\log n)"
-    "Olon" "O(n \\log n)"
-    ;; Use YAS/Tempel snippets with ease!
-    "amin" '(yas "\\argmin_{$1}") ; YASnippet snippet shorthand form
-    "amax" '(tempel "\\argmax_{" p "}") ; Tempel snippet shorthand form
-    ;; bind to functions!
-    ";ig" #'insert-register
-    ";call-sin"
-    (lambda (angle) ; Get as fancy as you like
-      (interactive "sAngle: ")
-      (insert (format "%s" (sin (string-to-number angle))))))
-  ;; disable snippets by redefining them with a nil expansion
-  (aas-set-snippets 'latex-mode
-    "supp" nil))
-
-(use-package laas
-  :ensure t
-  :hook (LaTeX-mode . laas-mode)
-  :config ; do whatever here
-  (aas-set-snippets 'laas-mode
-		    "(" (lambda () (interactive)
-			(yas-expand-snippet "($1)$0"))
-		    "[" (lambda () (interactive)
-			(yas-expand-snippet "[$1]$0"))
-		    "{" (lambda () (interactive)
-			(yas-expand-snippet "{$1}$0"))
-                    ;; set condition!
-                    :cond #'texmathp ; expand only while in math
-		    "dd" "+"
-		    "ss" "-"
-		    "ee" "="
-                    "supp" "\\supp"
-                    "On" "O(n)"
-                    "O1" "O(1)"
-                    "Olog" "O(\\log n)"
-                    "Olon" "O(n \\log n)"
-                    ;; bind to functions!
-                    "Sum" (lambda () (interactive)
-                            (yas-expand-snippet "\\sum_{$1}^{$2} $0"))
-                    "Span" (lambda () (interactive)
-                             (yas-expand-snippet "\\Span($1)$0"))
-                    ;; add accent snippets
-                    :cond #'laas-object-on-left-condition
-                    "qq" (lambda () (interactive) (laas-wrap-previous-object "sqrt"))))
-
-;;  >>> problem with org toggle pretty entites
-(add-hook 'cdlatex-mode-hook
- (lambda () (when (eq major-mode 'org-mode)
-  (make-local-variable 'org-pretty-entities-include-sub-superscripts)
-   (setq org-pretty-entities-include-sub-superscripts nil))))
-;;  <<< problem with org toggle pretty entites
-
-;; >>> enlarge org latex preview
-(setq org-format-latex-options (plist-put org-format-latex-options :scale 1.5))
-;; <<< enlarge org latex preview
-
-(use-package pdf-tools
-  :ensure t)
-  
-;; Enable vertico
-(use-package vertico
-  :ensure t
-  :init
-  (vertico-mode)
-
-  ;; Different scroll margin
-  ;; (setq vertico-scroll-margin 0)
-
-  ;; Show more candidates
-  ;; (setq vertico-count 20)
-
-  ;; Grow and shrink the Vertico minibuffer
-  ;; (setq vertico-resize t)
-
-  ;; Optionally enable cycling for `vertico-next' and `vertico-previous'.
-  ;; (setq vertico-cycle t)
-  )
-
-;; Persist history over Emacs restarts. Vertico sorts by history position.
-(use-package savehist
-  :init
-  (savehist-mode))
-
-;; A few more useful configurations...
-(use-package emacs
-  :init
-  ;; Add prompt indicator to `completing-read-multiple'.
-  ;; We display [CRM<separator>], e.g., [CRM,] if the separator is a comma.
-  (defun crm-indicator (args)
-    (cons (format "[CRM%s] %s"
-                  (replace-regexp-in-string
-                   "\\`\\[.*?]\\*\\|\\[.*?]\\*\\'" ""
-                   crm-separator)
-                  (car args))
-          (cdr args)))
-  (advice-add #'completing-read-multiple :filter-args #'crm-indicator)
-
-  ;; Do not allow the cursor in the minibuffer prompt
-  (setq minibuffer-prompt-properties
-        '(read-only t cursor-intangible t face minibuffer-prompt))
-  (add-hook 'minibuffer-setup-hook #'cursor-intangible-mode)
-
-  ;; Emacs 28: Hide commands in M-x which do not work in the current mode.
-  ;; Vertico commands are hidden in normal buffers.
-  ;; (setq read-extended-command-predicate
-  ;;       #'command-completion-default-include-p)
-
-  ;; Enable recursive minibuffers
-  (setq enable-recursive-minibuffers t))
-
-
-;; Optionally use the `orderless' completion style.
-(use-package orderless
-  :ensure t
-  :init
-  ;; Configure a custom style dispatcher (see the Consult wiki)
-  ;; (setq orderless-style-dispatchers '(+orderless-consult-dispatch orderless-affix-dispatch)
-  ;;       orderless-component-separator #'orderless-escapable-split-on-space)
-  (setq completion-styles '(orderless basic)
-        completion-category-defaults nil
-        completion-category-overrides '((file (styles partial-completion)))))
+;; load vertico savehist orderless for completion
+(load "~/.emacs.d/niraj/completion.el")  
 
 (use-package evil-surround
   :ensure t
@@ -307,3 +153,14 @@
 
 (use-package org-modern
   :ensure t)
+
+(use-package pdf-tools
+  :ensure t)
+
+;; load theme_settings 
+(load "~/.emacs.d/niraj/theme-launcher.el")
+
+(use-package mixed-pitch
+  :ensure t)
+
+(load "~/.emacs.d/niraj/read-write.el")

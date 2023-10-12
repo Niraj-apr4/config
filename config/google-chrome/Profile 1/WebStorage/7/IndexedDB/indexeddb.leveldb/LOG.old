@@ -1,3 +1,15 @@
-2023/10/06-01:15:01.700 11eb Reusing MANIFEST /home/niraj/.config/google-chrome/Profile 1/WebStorage/7/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2023/10/06-01:15:01.700 11eb Recovering log #4
-2023/10/06-01:15:01.701 11eb Reusing old log /home/niraj/.config/google-chrome/Profile 1/WebStorage/7/IndexedDB/indexeddb.leveldb/000004.log 
+2023/10/07-21:35:42.014 43e Reusing MANIFEST /home/niraj/.config/google-chrome/Profile 1/WebStorage/7/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/10/07-21:35:42.015 43e Recovering log #4
+2023/10/07-21:35:42.018 43e Reusing old log /home/niraj/.config/google-chrome/Profile 1/WebStorage/7/IndexedDB/indexeddb.leveldb/000004.log 
+2023/10/07-23:39:54.440 43f Level-0 table #8: started
+2023/10/07-23:39:54.445 43f Level-0 table #8: 121333 bytes OK
+2023/10/07-23:39:54.448 43f Delete type=0 #4
+2023/10/07-23:39:54.448 43f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/10/07-23:39:54.448 43f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 379 : 1
+2023/10/07-23:39:54.448 43f Compacting 1@1 + 1@2 files
+2023/10/07-23:39:54.453 43f Generated table #9@1: 60 keys, 3501 bytes
+2023/10/07-23:39:54.453 43f Compacted 1@1 + 1@2 files => 3501 bytes
+2023/10/07-23:39:54.455 43f compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/07-23:39:54.455 43f Delete type=2 #8
+2023/10/07-23:39:54.455 43f Delete type=2 #5
+2023/10/07-23:39:54.456 441 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 379 : 1 .. (end); will stop at (end)

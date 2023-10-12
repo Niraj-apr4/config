@@ -1,3 +1,15 @@
-2023/10/06-22:05:28.552 e4f Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2023/10/06-22:05:28.552 e4f Recovering log #277
-2023/10/06-22:05:28.559 e4f Reusing old log /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/000277.log 
+2023/10/12-19:56:08.595 2be Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/10/12-19:56:08.595 2be Recovering log #313
+2023/10/12-19:56:08.600 2be Reusing old log /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/000313.log 
+2023/10/12-20:10:10.471 29d Level-0 table #317: started
+2023/10/12-20:10:10.480 29d Level-0 table #317: 111685 bytes OK
+2023/10/12-20:10:10.482 29d Delete type=0 #313
+2023/10/12-20:10:10.482 29d Compacting 4@0 + 1@1 files
+2023/10/12-20:10:10.486 29d Generated table #318@0: 126 keys, 24623 bytes
+2023/10/12-20:10:10.486 29d Compacted 4@0 + 1@1 files => 24623 bytes
+2023/10/12-20:10:10.488 29d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/12-20:10:10.488 29d Delete type=2 #311
+2023/10/12-20:10:10.488 29d Delete type=2 #314
+2023/10/12-20:10:10.488 29d Delete type=2 #308
+2023/10/12-20:10:10.488 29d Delete type=2 #306
+2023/10/12-20:10:10.488 29d Delete type=2 #317

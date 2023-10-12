@@ -1,6 +1,21 @@
-2023/10/06-22:06:36.046 3 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2023/10/06-22:06:36.050 3 Recovering log #182
-2023/10/06-22:06:36.051 3 Reusing old log /home/niraj/.config/google-chrome/Default/Session Storage/000182.log 
-2023/10/06-22:26:33.955 5 Level-0 table #186: started
-2023/10/06-22:26:33.960 5 Level-0 table #186: 18215 bytes OK
-2023/10/06-22:26:33.965 5 Delete type=0 #182
+2023/10/12-21:18:42.883 3 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2023/10/12-21:18:42.896 3 Recovering log #228
+2023/10/12-21:18:42.899 3 Reusing old log /home/niraj/.config/google-chrome/Default/Session Storage/000228.log 
+2023/10/12-21:31:20.764 5 Level-0 table #232: started
+2023/10/12-21:31:20.773 5 Level-0 table #232: 18988 bytes OK
+2023/10/12-21:31:20.777 5 Delete type=0 #228
+2023/10/12-21:52:27.820 3 Level-0 table #234: started
+2023/10/12-21:52:27.831 3 Level-0 table #234: 108631 bytes OK
+2023/10/12-21:52:27.836 3 Delete type=0 #231
+2023/10/12-22:59:23.411 5 Level-0 table #236: started
+2023/10/12-22:59:23.421 5 Level-0 table #236: 51163 bytes OK
+2023/10/12-22:59:23.424 5 Delete type=0 #233
+2023/10/12-22:59:23.424 5 Compacting 4@0 + 1@1 files
+2023/10/12-22:59:23.451 5 Generated table #237@0: 10628 keys, 405707 bytes
+2023/10/12-22:59:23.451 5 Compacted 4@0 + 1@1 files => 405707 bytes
+2023/10/12-22:59:23.453 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/12-22:59:23.453 5 Delete type=2 #234
+2023/10/12-22:59:23.454 5 Delete type=2 #229
+2023/10/12-22:59:23.454 5 Delete type=2 #236
+2023/10/12-22:59:23.454 5 Delete type=2 #232
+2023/10/12-22:59:23.454 5 Delete type=2 #226
