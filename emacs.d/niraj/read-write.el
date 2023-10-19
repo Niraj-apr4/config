@@ -16,21 +16,16 @@
 (defun niraj/read-write-mode (state)
   ;; enable fringe mode
   (niraj/big-fringe-mode 1)
+
   ;; enable  mixed-pitch-mode 
-  (setq mixed-pitch-set-height 1)
   (mixed-pitch-mode state)
-  ;; enable org-modern-mode
-  (org-modern-mode state)
+
   ;; enable autofill-mode for text support
   (auto-fill-mode state)
   (set-fill-column 125)
-  ;; enable snippets support
-  (yas-minor-mode state)
-  (yas-reload-all state)
-  (cdlatex-mode state)
-  (laas-mode state))
-  ;; hide mode line
 
+  ;; enable org modern for apearance
+  (org-modern-mode state))
 
 ;; interactive function to toggle read-write-mode
 (defun niraj/switch-read-write-mode()

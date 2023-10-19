@@ -1,21 +1,12 @@
-2023/10/12-19:56:09.598 2a6 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2023/10/12-19:56:09.598 2a6 Recovering log #382
-2023/10/12-19:56:09.601 2a6 Reusing old log /home/niraj/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000382.log 
-2023/10/12-20:03:56.082 29e Level-0 table #386: started
-2023/10/12-20:03:56.124 29e Level-0 table #386: 3231196 bytes OK
-2023/10/12-20:03:56.126 29e Delete type=0 #382
-2023/10/12-20:03:56.127 29e Compacting 4@0 + 4@1 files
-2023/10/12-20:03:56.171 29e Generated table #387@0: 13 keys, 2540555 bytes
-2023/10/12-20:03:56.220 29e Generated table #388@0: 10 keys, 2615846 bytes
-2023/10/12-20:03:56.303 29e Generated table #389@0: 9 keys, 2671299 bytes
-2023/10/12-20:03:56.307 29e Generated table #390@0: 7 keys, 133810 bytes
-2023/10/12-20:03:56.307 29e Compacted 4@0 + 4@1 files => 7961510 bytes
-2023/10/12-20:03:56.309 29e compacted to: files[ 0 4 1 0 0 0 0 ]
-2023/10/12-20:03:56.309 29e Delete type=2 #373
-2023/10/12-20:03:56.309 29e Delete type=2 #375
-2023/10/12-20:03:56.309 29e Delete type=2 #383
-2023/10/12-20:03:56.309 29e Delete type=2 #374
-2023/10/12-20:03:56.309 29e Delete type=2 #386
-2023/10/12-20:03:56.309 29e Delete type=2 #381
-2023/10/12-20:03:56.309 29e Delete type=2 #378
-2023/10/12-20:03:56.309 29e Delete type=2 #372
+2023/10/18-22:32:08.501 26b Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/10/18-22:32:08.501 26b Recovering log #454
+2023/10/18-22:32:08.548 26b Reusing old log /home/niraj/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000454.log 
+2023/10/18-22:33:57.477 26c Level-0 table #462: started
+2023/10/18-22:33:57.511 26c Level-0 table #462: 2383981 bytes OK
+2023/10/18-22:33:57.513 26c Delete type=0 #454
+2023/10/18-22:38:59.129 26c Level-0 table #464: started
+2023/10/18-22:38:59.156 26c Level-0 table #464: 2202102 bytes OK
+2023/10/18-22:38:59.158 26c Delete type=0 #461
+2023/10/18-22:38:59.247 26c Level-0 table #466: started
+2023/10/18-22:38:59.286 26c Level-0 table #466: 3351113 bytes OK
+2023/10/18-22:38:59.288 26c Delete type=0 #463

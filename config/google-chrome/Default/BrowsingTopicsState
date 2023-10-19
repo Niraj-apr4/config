@@ -1,27 +1,5 @@
 {
    "epochs": [ {
-      "calculation_time": "13339684696890750",
-      "config_version": 1,
-      "model_version": "1",
-      "padded_top_topics_start_index": 0,
-      "taxonomy_version": 1,
-      "top_topics_and_observing_domains": [ {
-         "hashed_domains": [  ],
-         "topic": 41
-      }, {
-         "hashed_domains": [  ],
-         "topic": 304
-      }, {
-         "hashed_domains": [  ],
-         "topic": 175
-      }, {
-         "hashed_domains": [  ],
-         "topic": 68
-      }, {
-         "hashed_domains": [  ],
-         "topic": 134
-      } ]
-   }, {
       "calculation_time": "13340289497084058",
       "config_version": 1,
       "model_version": "1",
@@ -87,7 +65,29 @@
          "hashed_domains": [  ],
          "topic": 334
       } ]
+   }, {
+      "calculation_time": "13342121230399259",
+      "config_version": 1,
+      "model_version": "1",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 1,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 251
+      }, {
+         "hashed_domains": [  ],
+         "topic": 114
+      }, {
+         "hashed_domains": [  ],
+         "topic": 261
+      }, {
+         "hashed_domains": [  ],
+         "topic": 320
+      }, {
+         "hashed_domains": [  ],
+         "topic": 329
+      } ]
    } ],
    "hex_encoded_hmac_key": "82EC3DCE9B505626DBD35C183C2AC6D022117992017B46BF901B9D988CED2DB5",
-   "next_scheduled_calculation_time": "13342117510113956"
+   "next_scheduled_calculation_time": "13342726030737722"
 }

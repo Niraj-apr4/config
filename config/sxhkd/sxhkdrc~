@@ -18,6 +18,14 @@ super + w
 super + e
       emacs
 
+# inkscape
+super + i
+      inkscape
+
+# xournalpp
+super + x
+      xournalpp
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

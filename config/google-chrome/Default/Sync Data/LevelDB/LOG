@@ -1,6 +1,3 @@
-2023/10/12-21:18:42.259 c25 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2023/10/12-21:18:42.260 c25 Recovering log #316
-2023/10/12-21:18:42.263 c25 Reusing old log /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/000316.log 
-2023/10/12-21:35:14.233 c1a Level-0 table #321: started
-2023/10/12-21:35:14.238 c1a Level-0 table #321: 104023 bytes OK
-2023/10/12-21:35:14.240 c1a Delete type=0 #316
+2023/10/19-10:54:51.861 29c Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/10/19-10:54:51.861 29c Recovering log #369
+2023/10/19-10:54:51.872 29c Reusing old log /home/niraj/.config/google-chrome/Default/Sync Data/LevelDB/000369.log 

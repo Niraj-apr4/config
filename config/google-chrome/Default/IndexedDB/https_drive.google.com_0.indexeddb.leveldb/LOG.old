@@ -1,3 +1,30 @@
-2023/10/12-20:01:54.863 29d Reusing MANIFEST /home/niraj/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/12-20:01:54.863 29d Recovering log #91
-2023/10/12-20:01:54.865 29d Reusing old log /home/niraj/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000091.log 
+2023/10/19-10:54:54.867 287 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/19-10:54:54.869 287 Recovering log #162
+2023/10/19-10:54:54.875 287 Reusing old log /home/niraj/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000162.log 
+2023/10/19-10:55:02.204 286 Level-0 table #175: started
+2023/10/19-10:55:02.237 286 Level-0 table #175: 1618688 bytes OK
+2023/10/19-10:55:02.266 286 Delete type=0 #162
+2023/10/19-10:55:02.277 279 Compacting 1@1 + 8@2 files
+2023/10/19-10:55:02.327 279 Generated table #176@1: 7042 keys, 2131639 bytes
+2023/10/19-10:55:02.347 279 Level-0 table #179: started
+2023/10/19-10:55:02.381 279 Level-0 table #179: 1800019 bytes OK
+2023/10/19-10:55:02.389 279 Delete type=0 #174
+2023/10/19-10:55:02.416 279 Generated table #177@1: 2142 keys, 2131269 bytes
+2023/10/19-10:55:02.493 279 Generated table #180@1: 2509 keys, 2120704 bytes
+2023/10/19-10:55:02.545 279 Generated table #181@1: 2266 keys, 2124458 bytes
+2023/10/19-10:55:02.589 279 Generated table #182@1: 2016 keys, 2124028 bytes
+2023/10/19-10:55:02.644 279 Generated table #183@1: 2374 keys, 2121841 bytes
+2023/10/19-10:55:02.683 279 Generated table #184@1: 2400 keys, 2121975 bytes
+2023/10/19-10:55:02.731 279 Generated table #185@1: 19819 keys, 2143763 bytes
+2023/10/19-10:55:02.733 279 Generated table #186@1: 123 keys, 4551 bytes
+2023/10/19-10:55:02.733 279 Compacted 1@1 + 8@2 files => 17024228 bytes
+2023/10/19-10:55:02.735 279 compacted to: files[ 1 0 9 0 0 0 0 ]
+2023/10/19-10:55:02.735 279 Delete type=2 #172
+2023/10/19-10:55:02.735 279 Delete type=2 #167
+2023/10/19-10:55:02.735 279 Delete type=2 #168
+2023/10/19-10:55:02.735 279 Delete type=2 #171
+2023/10/19-10:55:02.735 279 Delete type=2 #170
+2023/10/19-10:55:02.735 279 Delete type=2 #166
+2023/10/19-10:55:02.735 279 Delete type=2 #165
+2023/10/19-10:55:02.735 279 Delete type=2 #169
+2023/10/19-10:55:02.735 279 Delete type=2 #175

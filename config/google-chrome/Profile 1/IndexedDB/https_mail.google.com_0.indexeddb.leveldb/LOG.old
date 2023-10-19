@@ -1,6 +1,9 @@
-2023/10/05-22:02:29.146 b52 Reusing MANIFEST /home/niraj/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/05-22:02:29.147 b52 Recovering log #21
-2023/10/05-22:02:29.166 b52 Reusing old log /home/niraj/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000021.log 
-2023/10/05-22:02:48.749 b52 Level-0 table #27: started
-2023/10/05-22:02:48.776 b52 Level-0 table #27: 2408163 bytes OK
-2023/10/05-22:02:48.779 b52 Delete type=0 #21
+2023/10/06-21:57:22.235 a0a Reusing MANIFEST /home/niraj/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/06-21:57:22.235 a0a Recovering log #26
+2023/10/06-21:57:22.240 a0a Reusing old log /home/niraj/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000026.log 
+2023/10/06-21:57:24.507 a0b Compacting 1@1 + 1@2 files
+2023/10/06-21:57:24.527 a0b Generated table #29@1: 171 keys, 331180 bytes
+2023/10/06-21:57:24.527 a0b Compacted 1@1 + 1@2 files => 331180 bytes
+2023/10/06-21:57:24.528 a0b compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/06-21:57:24.529 a0b Delete type=2 #27
+2023/10/06-21:57:24.529 a0b Delete type=2 #24

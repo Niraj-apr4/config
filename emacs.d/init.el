@@ -152,7 +152,12 @@
   (global-evil-surround-mode 1))
 
 (use-package org-modern
-  :ensure t)
+    :ensure t
+    :custom
+    (org-modern-keyword nil)
+    (org-modern-checkbox nil)
+    (org-modern-block-name nil)
+    (org-modern-table nil))
 
 (use-package pdf-tools
   :ensure t)
@@ -161,6 +166,36 @@
 (load "~/.emacs.d/niraj/theme-launcher.el")
 
 (use-package mixed-pitch
-  :ensure t)
+  :ensure t
+  :config
+  (setq mixed-pitch-set-height 1))
 
 (load "~/.emacs.d/niraj/read-write.el")
+(load "~/.emacs.d/niraj/inkscape.el")
+(evil-global-set-key 'insert (kbd "C-h") 'delete-backward-char)
+
+(use-package doom-themes
+  :ensure t)
+  
+
+(use-package window
+  :custom
+  (display-buffer-alist
+   '(("^\\*Python\\*$"
+      (display-buffer-in-side-window)
+      (window-width . 0.45)
+      (side . right)
+      (slot . -1)))
+   '(("\\*\\(Backtrace\\|Warnings\\|Compile-Log\\)\\*"
+    (display-buffer-in-side-window)
+    (window-height . 0.25)
+    (side . bottom)
+    (slot . 0)))))
+
+;; (add-to-list 'display-buffer-alist 
+;; '("^\\*Python\\*$" . (display-buffer-in-side-window)))
+(global-set-key "\C-w" 'clipboard-kill-region)
+(global-set-key "\M-w" 'clipboard-kill-ring-save)
+(global-set-key "\C-y" 'clipboard-yank)
+
+(load "~/.emacs.d/niraj/ligature-support.el")

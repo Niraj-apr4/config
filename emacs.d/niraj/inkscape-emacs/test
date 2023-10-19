@@ -1,0 +1,4 @@
+sample="/home/niraj/repositories/inkscape-emacs/sample.svg"
+dr=$1
+cp $sample $dr
+inkscape "$dr"

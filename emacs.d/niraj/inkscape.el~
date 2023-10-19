@@ -1,0 +1,13 @@
+(defun niraj/gen-img-name (img-name)
+  (concat (file-name-directory buffer-file-name) "img/" img-name))
+  
+(defun niraj/input-img ()
+  (interactive)
+  (let ((img-name (read-from-minibuffer "Enter image name: "))
+        (img-caption (read-from-minibuffer "Enter caption: ")))
+        (insert (concat "#+CAPTION: " img-caption "\n" ))
+	(insert (concat "[[./img/" img-name ".svg" "]]" ) )
+	))
+
+;; (call-process-shell-command (concat "cp " img-client " " (niraj/gen-img-name *img-name)))
+;; (call-process-shell-command (concat "inkscape "(niraj/gen-img-name *img-name) ))

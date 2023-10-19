@@ -1,9 +1,3 @@
-2023/10/09-16:18:05.247 25d Reusing MANIFEST /home/niraj/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/09-16:18:05.247 25d Recovering log #58
-2023/10/09-16:18:05.261 25d Reusing old log /home/niraj/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000058.log 
-2023/10/09-16:18:09.299 25d Compacting 1@1 + 1@2 files
-2023/10/09-16:18:09.312 25d Generated table #61@1: 157 keys, 311310 bytes
-2023/10/09-16:18:09.312 25d Compacted 1@1 + 1@2 files => 311310 bytes
-2023/10/09-16:18:09.314 25d compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/10/09-16:18:09.314 25d Delete type=2 #56
-2023/10/09-16:18:09.315 25d Delete type=2 #59
+2023/10/16-20:51:35.075 265 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/16-20:51:35.075 265 Recovering log #67
+2023/10/16-20:51:35.075 265 Reusing old log /home/niraj/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000067.log 

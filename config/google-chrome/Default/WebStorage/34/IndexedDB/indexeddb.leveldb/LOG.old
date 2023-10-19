@@ -1,2 +1,3 @@
-2023/10/12-20:05:49.486 29e Creating DB /home/niraj/.config/google-chrome/Default/WebStorage/34/IndexedDB/indexeddb.leveldb since it was missing.
-2023/10/12-20:05:49.493 29e Reusing MANIFEST /home/niraj/.config/google-chrome/Default/WebStorage/34/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/10/13-17:18:53.479 76d Reusing MANIFEST /home/niraj/.config/google-chrome/Default/WebStorage/34/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/10/13-17:18:53.479 76d Recovering log #4
+2023/10/13-17:18:53.480 76d Reusing old log /home/niraj/.config/google-chrome/Default/WebStorage/34/IndexedDB/indexeddb.leveldb/000004.log 

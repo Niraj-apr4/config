@@ -1,12 +1,3 @@
-2023/10/12-21:18:42.820 c21 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2023/10/12-21:18:42.820 c21 Recovering log #385
-2023/10/12-21:18:42.845 c21 Reusing old log /home/niraj/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000385.log 
-2023/10/12-21:21:32.199 c18 Level-0 table #393: started
-2023/10/12-21:21:32.231 c18 Level-0 table #393: 2378936 bytes OK
-2023/10/12-21:21:32.233 c18 Delete type=0 #385
-2023/10/12-21:25:33.999 c18 Level-0 table #395: started
-2023/10/12-21:25:34.036 c18 Level-0 table #395: 2195399 bytes OK
-2023/10/12-21:25:34.039 c18 Delete type=0 #392
-2023/10/12-21:25:34.137 c18 Level-0 table #397: started
-2023/10/12-21:25:34.194 c18 Level-0 table #397: 3367625 bytes OK
-2023/10/12-21:25:34.196 c18 Delete type=0 #394
+2023/10/19-10:54:53.034 288 Reusing MANIFEST /home/niraj/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/10/19-10:54:53.035 288 Recovering log #465
+2023/10/19-10:54:53.039 288 Reusing old log /home/niraj/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000465.log 

@@ -1,5 +1,5 @@
 (setq *lightTheme 'whiteboard) ;; set light theme
-(setq *darkTheme  'deeper-blue) ;; set dark theme
+(setq *darkTheme  'doom-challanger-deep) ;; set dark theme
 
 
 (defun niraj/toggle-theme()
